@@ -1,4 +1,4 @@
-//Exercise1 => Guess the Number
+//Exercise1 => Guess the Number 
 
 let num = Math.floor(Math.random() * 100)
 num = Number.parseInt(num)
