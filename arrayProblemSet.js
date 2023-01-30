@@ -5,7 +5,6 @@
 // arr.push(a)
 // console.log(arr1)
 
-
 // 2. Keep adding numbers to array in until 0 is added to the array
 // do{
 //     let arr1=[1,2,3]
@@ -24,7 +23,6 @@ let a = arr2.filter((val) => {
     return val%10 == 0
 })
 console.log(a)
-
 
 // 4. Create an array of square of given numbers
 // let arr3 = [1,2,3,4]
