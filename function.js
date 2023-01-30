@@ -5,6 +5,7 @@ let c = 5
 function sum(a,b,c){
 	return a + b + c
 }
+
 function average(sum,n){
 	let sum1 = sum(a,b,c)
 	let avg = sum1/3
