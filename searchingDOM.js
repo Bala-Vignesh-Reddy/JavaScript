@@ -21,6 +21,7 @@ document.getElementsByName -> Searches elements by the name attribute
 
 
 
+
 Matches, closest and contains methods
 these are 3 imp methods to seach the ODM
 
