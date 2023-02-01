@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: black;
+  }
+  #clock {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      color: #20C20E  ;
+      font-size: 100px;
+      font-family: Orbitron;
+      letter-spacing: 7px;
+  }
+  .container {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    /* transform: translateX(30%) translateY(30%); */
+    color: #20C20E  ;
+    font-size: 100px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+  }
