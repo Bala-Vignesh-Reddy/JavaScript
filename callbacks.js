@@ -22,5 +22,21 @@ function loadScript (src, Callback){
     document.head.append(script)
 }
 
- x
+ 
+pyramid of Doom
+When we have callback inside callbacks, the code gets difficult to manage
+this is called as callback hell
+
+the solution of callback hell is promises.
+
+A promise is a "promise of code execution". The code either executes or fails, in both the cases the user will be notified.
+
+let promise = new Promise(function(resolve, reject){
+    //execution
+});
+
+promise is used to run the command parallely
+
+.then() -> can be used to get the value
+.catch() -> can be used to catch the error
 */
