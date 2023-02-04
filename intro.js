@@ -28,6 +28,10 @@ Boolean
 Bigint
 Undefined
 
+=== is equal to(3 equal sign)
+!== is not equal to(!or 2 equal sign )
+> greater than
+
 Objects not primitive
 
 */ 
