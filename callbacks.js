@@ -4,6 +4,7 @@
 // let c = prompt("What is your favorite color")
 //this is eg because it will run one by one
 
+
 //Asynchronous programming ->these are the actions that we initate now and they finish late.
 console.log('start')
 setTimeout(() => {
