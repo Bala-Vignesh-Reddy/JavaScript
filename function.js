@@ -14,7 +14,7 @@ function average(sum,n){
 console.log("Sum of three numbers: ",sum(a,b,c))
 console.log("Average of three numbers: ", average(sum,3))
 
-//new  way to write function is
+//new  way to write function is here remember the =
 const sum2 = (a,b)=>{
 	return a+b
 }
