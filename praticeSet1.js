@@ -25,4 +25,4 @@ const item = {
     "bala" : 9870728527
 }
 console.log(item["tavish"])
-console.log(item.harry) // same as above
+console.log(item.harry) // same as above will print the same    
