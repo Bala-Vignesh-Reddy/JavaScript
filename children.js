@@ -1,7 +1,7 @@
 /*
 Children of an element
 Direct as well as deeply nested elements of an element are called its children.
-
+/
 Child node -> Elements that are direct children. 
 eg. head and body are children of html
 
