@@ -106,3 +106,5 @@ $("h1").addClass("big-title margin-50"); // to add any class | to add two class 
 $("button").click(()=>{
     $("h1").slideUp().slideDown().animate({opacity:0.5});
 });
+
+//remaining function can be seen from documentation
