@@ -30,9 +30,9 @@ console.log(num)
 // 6. unshift() add the element to the beginning. return new array length
 // 7. delete array element can be deleted using the delete operator
 // 8. concat() used to join array to the given array 
-let a1 = [9,10]
-a1.concat(num)// doesn't change the existing array
-console.log(a1)
+// let a1 = [9,10]
+// a1.concat(num)// doesn't change the existing array
+// console.log(a1)
 
 // 9. sort() this method is used to sort array alphabetically
 let b1 = [9,2,4]
