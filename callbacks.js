@@ -63,6 +63,6 @@ p1.then(()=>{
     console.log("i am second");
 })
 
-isme .then line wise execute hoga
+isme .then line wise execute hoga independently
 
 */
