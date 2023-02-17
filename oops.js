@@ -93,5 +93,6 @@ instanceof operator
 The instance operator allows to check whether an object belongs to certain class
 
 <obj>instanceof<class>
+
 It returns true if obj belongs to the class or any other class inheriting from it.
 */
