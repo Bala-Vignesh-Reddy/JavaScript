@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.button {
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bold;
+}
+
+.row {
+    margin: 5px 0;  
+}
+
+.row input {    
+    margin: 0;
+    font-size: 20px;
+    padding: 14px 0;
+    border: 2px solid black;
+    border-radius: 7px;
+}
