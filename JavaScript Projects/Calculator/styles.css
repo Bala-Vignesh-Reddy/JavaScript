@@ -31,8 +31,14 @@ html, body {
     font-size: 1rem;
     font-weight: 900;
     padding: 14px 0;
-    width: 17rem;
+    width: 17rem;   
     border: 2px solid black;
     border-radius: 7px;
     font-family: 'Shantell Sans', cursive;
+    display: block;
+}
+
+.row .temp-ans{
+    display: block;
+    padding: 8px 0px;
 }
