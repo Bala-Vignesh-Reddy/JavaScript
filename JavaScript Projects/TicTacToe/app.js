@@ -52,3 +52,15 @@ Array.from(boxes).forEach(ele => {
     })
 })
  
+
+//reseting the game
+reset.addEventListener("click", ()=>{
+    let boxtext = document.querySelectorAll('.boxtext');
+    Array.from(boxtext).forEach(element => {
+        element.innerText = "";
+    });
+    turn = "X";
+    gameOver = false;
+    document.getElementsByClassName("info")[0].innerText = "Turn for " + turn;
+    document.querySelector(".imgBox").getElementsByTagName("img")[0].style.width = "0px"        
+})
