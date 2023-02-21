@@ -4,7 +4,6 @@ document.addEventListener("click", () => {
 })
 let audioturn = new Audio("ting.mp3")
 let audiogameOver = new Audio("gameover.mp3")
-
 let turn = "X"
 let gameOver = false;
 
