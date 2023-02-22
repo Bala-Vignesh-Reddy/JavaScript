@@ -13,12 +13,10 @@ function showTime() {
     if (hour == 0) {
         hr = 12;
         am_pm = "AM";
-    }
-  
+    }  
     hour = hour < 10 ? "0" + hour : hour;
     min = min < 10 ? "0" + min : min;
-    sec = sec < 10 ? "0" + sec : sec;
-  
+    sec = sec < 10 ? "0" + sec : sec;  
     let currentTime = hour + ":" 
             + min + ":" + sec + am_pm;
   
