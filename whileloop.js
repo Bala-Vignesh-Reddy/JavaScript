@@ -7,6 +7,7 @@ while(i < n){
 	i++;
 }
 
+
 //do while loop
 let n1 = 1
 let i1 = 2
