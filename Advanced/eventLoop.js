@@ -26,4 +26,5 @@ The Event Loop
 2. The event loop pushes the tasks from the task queue to the call stack
 3. setTimeout(func1, 0) can be used to defer a function until all the pending tasks have been executed
 4. We can see how these things work in action by visiting
+
 */
