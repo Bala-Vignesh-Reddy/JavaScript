@@ -20,7 +20,6 @@ Task Queue
 3. When we run setTimeout, webapis will run a timer and push the function provided to setTimeout to the ask queue once the timer ends
 4. These tasks will be pushed to the stack where they can executed
 
-
 The Event Loop
 1. Js has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks
 2. The event loop pushes the tasks from the task queue to the call stack
