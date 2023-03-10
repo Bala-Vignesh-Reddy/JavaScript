@@ -1,0 +1,12 @@
+Mainly this topics are there in this folder
+
+-> About Algorithm
+-> Measuring performance
+-> Time and Space Complexity
+-> Big O notation
+-> Math Algorithm
+-> Sort
+-> Search
+-> Misc. Algorithm and
+-> problem solving
+
