@@ -7,6 +7,5 @@ Mainly this topics are there in this folder
 -> Math Algorithm
 -> Sort
 -> Search
--> Misc. Algorithm and
--> problem solving
+-> Misc. Algorithm and problem solving
 
