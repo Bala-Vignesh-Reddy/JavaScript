@@ -15,3 +15,4 @@ console.log(prime(6))
 console.log(prime(19))
 
 Big-O -> O(n)
+// in place of i<n/2 we can also write Math.sqrt(n) so that the Big-O becomes O(sqrt(n))
