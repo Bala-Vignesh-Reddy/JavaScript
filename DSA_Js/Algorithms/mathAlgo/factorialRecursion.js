@@ -7,5 +7,5 @@ function recurFact(n) {
 
 console.log(recurFact(5));
 
-Big-O -> O(n)
+// Big-O -> O(n)
 
