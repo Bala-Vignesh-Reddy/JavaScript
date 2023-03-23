@@ -10,7 +10,6 @@
 // Insertion order is maintained in array but it is not the case in set 
 // Searching and deleting an element in set is faster compared to array
 
-
 const set = new Set([1, 2, 3])
 set.add(4)
 console.log(set.has(4)) // tells whether the item is present
