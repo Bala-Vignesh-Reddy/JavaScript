@@ -1,4 +1,4 @@
-Mainly this topics are there in this folder
+
 
 -> About Algorithm
 -> Measuring performance
