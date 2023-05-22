@@ -5,13 +5,10 @@
 // Sets do not maintain an insertion order
 // Sets are iterables. They can be used with a for of loop
 
-
-
 //Sets vs Array
 // Array can contain duplicate values where as set cannot
 // Insertion order is maintained in array but it is not the case in set 
 // Searching and deleting an element in set is faster compared to array
-
 
 const set = new Set([1, 2, 3])
 set.add(4)
