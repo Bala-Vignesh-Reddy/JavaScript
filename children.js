@@ -2,6 +2,7 @@
 Children of an element
 Direct as well as deeply nested elements of an element are called its children.
 /
+
 Child node -> Elements that are direct children. 
 eg. head and body are children of html
 
@@ -30,6 +31,7 @@ of element is changed.
 
 Parents and Siblings of an element:
 Sibling are nodes that are children of same parent  
+
 
 Elements only navigation:
 Sometimes, we don't want tezt or comment nodes. So, we will use 
