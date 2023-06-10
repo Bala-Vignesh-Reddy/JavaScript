@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="shortcut icon" href="images/js.png" type="image/x-icon" />
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 20px 40px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        background-color: #4caf50;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .button:hover {
+        background-color: #45a049;
+      }
+
+      .button:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #4caf50;
+      }
+
+      .button:active {
+        background-color: #3d8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button class="button" id="btn">Click Here</button>
+    </div>
+  </body>
+
+  <script>
+    const button = document.getElementById('btn');
+    button.addEventListener('click', () => {
+        const fileLocation = '/JavaScript Projects';
+        const link = document.createElement('a');
+        link.href = fileLocation;
+        link.click();
+    });
+  </script>
+</html>
