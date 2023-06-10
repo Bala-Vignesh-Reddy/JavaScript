@@ -1,11 +1,15 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
 h1 {
-    padding: 20px;
-    margin-left: 40%;
+    padding: 50px;
+    margin-left: 35%;
 }
 
 .container {
-    padding: 18rem;
-    margin-right: 30px;
+    padding: 5rem;
+    margin-left: 350px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 60px;
 }
