@@ -1,0 +1,22 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    padding: 50px;
+    margin-left: 35%;
+}
+
+.container {
+    padding: 5rem;
+    margin-left: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-left: 9rem;
+    font-size: 20px;
+    
+}
