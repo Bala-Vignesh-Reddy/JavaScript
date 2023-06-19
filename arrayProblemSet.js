@@ -25,14 +25,14 @@ let a = arr2.filter((val) => {
 console.log(a)
 
 // 4. Create an array of square of given numbers
-// let arr3 = [1,2,3,4]
+let arr3 = [1,2,3,4]
 let b = arr3.map((val) => {
     return val*val
 })
 console.log(b)
 
 // 5. Use reduce to calculate factorial of a given number from an array of first n natural number
-let arr3 = [1,2,3,4]
+// let arr3 = [1,2,3,4]
 let c = arr3.reduce((x1,x2) => {
     return x1*x2
 })
