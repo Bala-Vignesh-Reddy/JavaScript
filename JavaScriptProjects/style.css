@@ -1,0 +1,53 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 30vw;
+    height: 70vh;
+    background-color: rgba(132, 195, 197, 0.848);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card .project-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .card .project-description {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  
+  .card .project-image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 35vh;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .card .project-link {
+    font-size: 14px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .card .project-link:hover {
+    text-decoration: underline;
+  }
+  
