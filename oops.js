@@ -85,7 +85,6 @@ class person{
         this._name = newName
     }
 }
-
 first the name property is changed to _name to avoid the name collision with the getter and setter. 
 Then the getter uses the ger keyword as shown above
 
