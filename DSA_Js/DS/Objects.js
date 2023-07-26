@@ -17,7 +17,6 @@ console.log(object);
 object.sayMyName()
 
 // it also have object.keys() .values() and entries() which return the objects
-
 // Object Big-O time complexity
 // Insert / Remove/ Access - O(1)
 // Search / object.keys()/ .values() / .entries() - O(n)
