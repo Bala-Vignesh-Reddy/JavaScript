@@ -1,4 +1,153 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="shortcut icon" href="images/js.png" type="image/x-icon" />
+    
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 20px 40px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        background-color: #4caf50;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .button:hover {
+        background-color: #45a049;
+      }
+
+      .button:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #4caf50;
+      }
+
+      .button:active {
+        background-color: #3d8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button class="button" id="btn">Click Here</button>
+    </div>
+  </body>
+
+  <script>
+    
+    const button = document.getElementById('btn');
+    button.addEventListener('click', () => {
+        const fileLocation = '/JavaScript/JavaScriptProjects';
+        const link = document.createElement('a');
+        link.href = fileLocation;
+        link.click();
+    });
+  </script>
+</html> -->
+
+
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy New Year Tavish 2024</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #333;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      overflow: hidden;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #firecrackerContainer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      display: none;
+      z-index: 999;
+    }
+
+    #firecrackerGif {
+      width: 100%;
+      height: 100%;
+    }
+
+    #newYearMessage {
+      font-size: 3em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<button onclick="celebrate()">Click to Celebrate</button>
+
+<div id="firecrackerContainer">
+  <img id="firecrackerGif" src="firecracker.gif" alt="Firecracker Animation">
+  <p id="newYearMessage">Happy New Year 2024! 🎉</p>
+</div>
+
+<script>
+  function celebrate() {
+    document.getElementById("firecrackerContainer").style.display = "block";
+    document.querySelector("button").style.display = "none";
+    var audio = new Audio('thala_audio.mp3');
+    audio.play();
+    // You can add additional animations or effects here
+
+    // Reset the celebration after a few seconds (adjust the timeout as needed)
+    setTimeout(resetCelebration, 5000);
+  }
+
+  function resetCelebration() {
+    document.getElementById("firecrackerContainer").style.display = "none";
+    document.querySelector("button").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -61,3 +210,4 @@
     });
   </script>
 </html>
+ -->
